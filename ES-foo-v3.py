@@ -60,7 +60,7 @@ def f(w, render=False):
             break
     return total_reward
 
-for i in range(5000):
+for i in range(500):
     # initialize memory for a population of w's, and their rewards
     N = np.random.randn(npop, env.observation_space.shape[0])   # samples from a normal distribution
     R = np.zeros(npop)
